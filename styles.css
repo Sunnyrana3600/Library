@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+#container{
+    display: flex;
+}
+
+
+#form{
+    margin-top: .5em;
+    color:#9f1239;
+    height:100vh;
+    position: fixed;
+}
+h1{
+    margin-bottom: 1em;
+}
+input{
+    margin-bottom: 2.5em;
+    
+}
+.userInput{
+    display: block;
+    font-size: 1.5rem;
+    padding-left: 1.8em;
+}
+
+form>div{
+    margin-left: 1em;
+}
+
+.notRead{
+    margin-left: 1em;
+}
+
+.submitButton{
+    width: 13em;
+    height:2em;
+    margin-left: .8em;
+    background-color: #9f1239;
+    border-radius: 10px;
+    color: white;
+}
+
+.output{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min-content,200px));
+    margin-left: 15em;
+}
+.posts{
+    
+    background-color: #9f1239;
+    height:12em;
+    margin-right: .5em;
+    margin-top:.5em;
+    margin-bottom: .5em;
+    border-radius: 15px;
+    white-space: nowrap;
+    color: #fff1f2;
+    position: relative;
+}
+
+li{
+    list-style: none;
+    font-size: 1rem;
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+
+.change{
+    background-color: #9f1239;
+    position: absolute;
+    padding-left: 1.3em;
+    font-size: .8em;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    color: #fff1f2;
+}
+
+.delete{
+    position: absolute;
+    right: 0;
+    bottom: 1em;
+    background-color: #9f1239;
+    border: none;
+    color: #fff1f2;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 1em;
+
+}
+
